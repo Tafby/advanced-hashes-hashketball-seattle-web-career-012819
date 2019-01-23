@@ -160,5 +160,8 @@ def team_names
 end
 
 def player_numbers(team_name)
-  
+  hashketball = game_hash()
+  newarry = []
+  if hashketball[:home][:team_name] == team_name
+    newarry << hashketball [:home][:players][player][:number]
 end
