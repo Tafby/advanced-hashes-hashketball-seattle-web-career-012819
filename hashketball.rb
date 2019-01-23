@@ -124,6 +124,8 @@ def home_team_name
 end
 puts home_team_name
 
-
+def num_points_scored(player)
+  
+end
 
 
