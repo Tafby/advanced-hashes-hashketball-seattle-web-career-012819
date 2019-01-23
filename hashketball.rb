@@ -1,5 +1,7 @@
-def game_hash =
-  hashketball
+def game_hash 
+  hashketball = {
+    
+  }
 
 
 
