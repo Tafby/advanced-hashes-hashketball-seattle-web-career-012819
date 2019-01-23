@@ -139,6 +139,7 @@ def shoe_size(player)
     hashketball[:home][:players][player][:shoe]
   elsif hashketball[:away][:players].has_key?(player)
     hashketball[:away][:players][player][:shoe]
+  end
 end
 
 
