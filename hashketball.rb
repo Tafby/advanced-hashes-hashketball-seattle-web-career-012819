@@ -4,7 +4,9 @@ def game_hash
       :team_name = {"Brookyn Nets"},
       :colors = ["Black", "White"],
       :players = {
-        
+        "Alan Anderson" = {
+          :number
+        }
       }
     }
     
