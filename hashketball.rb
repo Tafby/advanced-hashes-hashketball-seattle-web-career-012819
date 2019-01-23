@@ -177,3 +177,4 @@ def player_stats(name)
   elsif hashketball[:away][:players].has_key?(player)
     hashketball[:away][:players][player]
 end
+end
