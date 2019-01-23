@@ -125,7 +125,8 @@ end
 puts home_team_name
 
 def num_points_scored(player)
-  game_hash[:home][:players]["player"][:points] 
+  
+  if hashketball[:home][:players].has_key?(name)
 end
 
 
