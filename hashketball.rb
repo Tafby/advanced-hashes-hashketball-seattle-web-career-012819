@@ -100,7 +100,7 @@ def game_hash
           :steals => 1,
           :blocks => 1,
           :slam_dunks => 0
-        }
+        },
         "Brendan Haywood" => {
           :number => 33,
           :shoe => 15,
