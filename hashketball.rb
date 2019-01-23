@@ -172,9 +172,9 @@ def player_numbers(team_name)
 end
 
 def player_stats(name)
-  if hashketball[:home][:players].has_key?(player)
+  if hashketball[:home][:players].has_key?(name)
     hashketball[:home][:players][player]
-  elsif hashketball[:away][:players].has_key?(player)
+  elsif hashketball[:away][:players].has_key?(name)
     hashketball[:away][:players][player]
 end
 end
