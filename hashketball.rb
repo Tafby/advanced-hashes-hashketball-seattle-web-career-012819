@@ -142,11 +142,11 @@ def shoe_size(player)
   end
 end
 
-def team_colors(team)
+def team_colors(team_name)
   hashketball = game_hash()
-  if hashketball[:home][:team_name] == team
+  if hashketball[:home][:team_name] == team_name
     hashketball[:home][:colors]
-  elsif hashketball[:away][:team_name] == team
+  elsif hashketball[:away][:team_name] == team_name
     hashketball[:away][:colors]
   end
 end
