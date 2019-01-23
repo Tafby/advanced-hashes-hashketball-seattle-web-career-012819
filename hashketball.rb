@@ -128,6 +128,8 @@ def num_points_scored(player)
   hashketball = game_hash
   if hashketball[:home][:players].has_key?(player)
     hashketball[:home][:players][player][:points]
+    elsif hashketball[:away][:players].has_key?(player)
+    hashketball[:away][:players][player][:points]
 end
 
 
