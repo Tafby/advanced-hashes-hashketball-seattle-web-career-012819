@@ -161,11 +161,12 @@ end
 
 def player_numbers(team_name)
   hashketball = game_hash()
-  newarry = []
   if hashketball[:home][:team_name] == team_name
-    newarry << hashketball [:home][:players][player][:number]
+    players = hashketball[:home][:players]
   elsif hashketball[:away][:team_name] == team_name
-    newarry << hashketball [:away][:players][player][:number]
+    players = hashketball[:away][:players]
   end
-  newarry
+  players.collect do |key, value|
+    value[:number]
+  end
 end
