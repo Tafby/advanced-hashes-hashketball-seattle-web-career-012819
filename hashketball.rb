@@ -147,7 +147,7 @@ def team_colors(team)
   if hashketball[:home][:team_name] == (team)
     hashketball[:home][:colors]
   elsif hashketball[:away][:team_name] == (team)
-    hashketball[:away][:team_name][:colors]
+    hashketball[:away][:colors]
   end
 end
 
