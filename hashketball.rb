@@ -164,4 +164,6 @@ def player_numbers(team_name)
   newarry = []
   if hashketball[:home][:team_name] == team_name
     newarry << hashketball [:home][:players][player][:number]
+  elsif hashketball[:away][:team_name] == team_name
+    newarry << hashketball [:away][:players][player][:number]
 end
