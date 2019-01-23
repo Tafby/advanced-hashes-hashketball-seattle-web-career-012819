@@ -146,5 +146,7 @@ def team_colors(team)
   hashketball = game_hash
   if hashketball[:home][:team_name].has_key?(team)
     hashketball[:home][:team_name][:colors]
+  elsif hashketball[:away][:team_name].has_key?(team)
+    hashketball[:away][:team_name][:colors]
 end
 
