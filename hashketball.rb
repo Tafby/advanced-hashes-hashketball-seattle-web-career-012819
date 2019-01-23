@@ -182,7 +182,7 @@ end
 
 def big_shoe_rebounds 
   hashketball = game_hash()
-  big_shoe = 0
+  big_shoe = nil
   
 end
 
