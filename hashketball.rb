@@ -172,6 +172,7 @@ def player_numbers(team_name)
 end
 
 def player_stats(name)
+  hashketball = game_hash()
   if hashketball[:home][:players].has_key?(name)
     hashketball[:home][:players][name]
   elsif hashketball[:away][:players].has_key?(name)
