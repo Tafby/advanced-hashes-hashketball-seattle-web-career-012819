@@ -117,7 +117,10 @@ def game_hash
 
 
 
-
+def home_team_hash 
+  game_hash[:home]
+  [:team_name]
+end
 
 
 
