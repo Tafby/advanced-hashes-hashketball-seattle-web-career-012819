@@ -1,13 +1,15 @@
 def game_hash 
   hashketball = {
-    home = {
-      team_name = {
-        
-      }
+    :home = {
+      :team_name = {},
+      :colors = {},
+      :players = {}
     }
     
-    away = {
-      
+    :away = {
+      :team_name = {},
+      :colors = {},
+      :players = {}
     }
   }
 
