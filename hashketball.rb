@@ -125,7 +125,7 @@ end
 puts home_team_name
 
 def num_points_scored(player)
-  game_hash[:home][:players][:key]
+  game_hash[:home][:players]["player"][:points] 
 end
 
 
