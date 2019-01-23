@@ -158,3 +158,7 @@ def team_names
   newarry << hashketball[:away][:team_name]
   newarry
 end
+
+def player_numbers(team_name)
+  
+end
