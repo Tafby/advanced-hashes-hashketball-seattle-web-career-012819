@@ -151,3 +151,10 @@ def team_colors(team_name)
   end
 end
 
+def team_names
+  hashketball = game_hash()
+  newarry = []
+  newarry << hashketball[:home][:team_name]
+  newarry << hashketball[:away][:team_name]
+  newarry
+end
