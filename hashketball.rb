@@ -49,7 +49,7 @@ def game_hash
           :shoe => 15,
           :points => 19,
           :rebounds => 2,
-          :assits => 2,
+          :assists => 2,
           :steals => 4,
           :blocks => 11,
           :slam_dunks => 1
@@ -57,10 +57,31 @@ def game_hash
       }
     }
     
-    :away = {
-      :team_name = {},
-      :colors = [],
-      :players = {}
+    :away => {
+      :team_name => {"Charlotte Hornets"},
+      :colors => ["Turquoise", "Purple"],
+      :players => {
+        "Jeff Adrien" => {
+          :number => 4,
+          :shoe => 18,
+          :points => 10,
+          :rebounds => 1,
+          :assists => 1,
+          :steals => 2,
+          :blocks => 7,
+          :slam_dunks => 2
+        }
+        "Bismak Biyombo" => {
+          :number => 0,
+          :shoe  => 16,
+          :points => 12,
+          :rebounds => 4,
+          :assists => 7,
+          :steals => 7,
+          :blocks => 15,
+          :slam_dunks => 10
+        }
+      }
     }
   }
 
