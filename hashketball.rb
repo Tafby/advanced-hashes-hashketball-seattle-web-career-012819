@@ -134,7 +134,7 @@ def num_points_scored(player)
 end
 
 def shoe_size(player)
-  hashketball = game_hash
+  hashketball = game_hash()
   if hashketball[:home][:players].has_key?(player)
     hashketball[:home][:players][player][:shoe]
   elsif hashketball[:away][:players].has_key?(player)
