@@ -180,9 +180,19 @@ def player_stats(name)
 end
 end
 
-def big_shoe_rebounds 
+def big_shoe_rebounds
   hashketball = game_hash()
-  big_shoe = nil
-  
+  shoe_size = nil
+  player_name = ""
+  hashketball.each do |key, team| 
+    team[:players].each do |player, stats|
+      if shoe_size == nil || stats[:shoe] > shoe_size
+        shoe_size = stats[:shoe]
+        player_name = player
+      end
+    end
+  end
+  hashketball.dig(:home, :players, player_name, :rebounds) || 
+    hashketball.dig(:away, :players, player_name, :rebounds)
 end
 
