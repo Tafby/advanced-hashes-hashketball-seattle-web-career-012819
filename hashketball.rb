@@ -180,3 +180,9 @@ def player_stats(name)
 end
 end
 
+def big_shoe_rebounds 
+  hashketball = game_hash()
+  big_shoe = 0
+  
+end
+
