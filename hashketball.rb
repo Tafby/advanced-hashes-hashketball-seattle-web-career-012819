@@ -144,9 +144,9 @@ end
 
 def team_colors(team)
   hashketball = game_hash
-  if hashketball[:home][:team_name] == team
-    hashketball[:home][:team_name][:colors]
-  elsif hashketball[:away][:team_name] == team
+  if hashketball[:home][:team_name] == (team)
+    hashketball[:home][:colors]
+  elsif hashketball[:away][:team_name] == (team)
     hashketball[:away][:team_name][:colors]
   end
 end
